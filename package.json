@@ -1,0 +1,16 @@
+{
+  "name": "cypressaccessibilityproject",
+  "version": "1.0.0",
+  "description": "Cypress + Axe accessibility test starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "a11y:report": "node generate-axe-report.js"
+  },
+  "devDependencies": {
+    "axe-html-reporter": "^3.2.1",
+    "axe-reports": "^1.0.7",
+    "cypress": "^14.5.2",
+    "cypress-axe": "^1.0.0"
+  }
+}

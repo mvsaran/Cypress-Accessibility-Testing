@@ -1,0 +1,72 @@
+
+  <html>
+    <head>
+      <title>Accessibility Report</title>
+      <style>
+        body { font-family: Arial, sans-serif; padding: 2rem; }
+        h1 { color: #333; }
+        .violation { margin-bottom: 2rem; border: 1px solid #ccc; padding: 1rem; }
+        .impact { font-weight: bold; color: red; }
+        code { background: #f4f4f4; padding: 2px 4px; }
+      </style>
+    </head>
+    <body>
+      <h1>Accessibility Violations</h1>
+
+    <div class="violation">
+      <h2>color-contrast</h2>
+      <p><span class="impact">Impact:</span> serious</p>
+      <p>Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p>
+      <p><a href="https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI" target="_blank">More info</a></p>
+      <h3>Affected Nodes:</h3>
+      <ul>
+        <li><code>.hstack > a</code></li><li><code>.col-md-8.d-sm-block.d-none > span:nth-child(3)</code></li><li><code>#linkForPensionOnHigherWages</code></li><li><code>#pohw > span</code></li><li><code>#uanActivation</code></li><li><code>#kyu</code></li><li><code>#citizenRegistrationDisable</code></li><li><code>#nomineeAppForm</code></li><li><code>#directUanAllot</code></li><li><code>.list-inline-item:nth-child(1) > a</code></li><li><code>.list-inline-item:nth-child(2) > a</code></li>
+      </ul>
+    </div>
+  
+    <div class="violation">
+      <h2>image-alt</h2>
+      <p><span class="impact">Impact:</span> critical</p>
+      <p>Ensure <img> elements have alternative text or a role of none or presentation</p>
+      <p><a href="https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI" target="_blank">More info</a></p>
+      <h3>Affected Nodes:</h3>
+      <ul>
+        <li><code>.col-sm-2 > img</code></li>
+      </ul>
+    </div>
+  
+    <div class="violation">
+      <h2>landmark-unique</h2>
+      <p><span class="impact">Impact:</span> moderate</p>
+      <p>Ensure landmarks are unique</p>
+      <p><a href="https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI" target="_blank">More info</a></p>
+      <h3>Affected Nodes:</h3>
+      <ul>
+        <li><code>#navBar</code></li>
+      </ul>
+    </div>
+  
+    <div class="violation">
+      <h2>link-name</h2>
+      <p><span class="impact">Impact:</span> serious</p>
+      <p>Ensure links have discernible text</p>
+      <p><a href="https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI" target="_blank">More info</a></p>
+      <h3>Affected Nodes:</h3>
+      <ul>
+        <li><code>a[filename="purZbMpBSH.pdf"]</code></li><li><code>a[filename="OqSNkwQiBb.pdf"]</code></li><li><code>a[filename="fGQDJ1pjvH.pdf"]</code></li><li><code>a[filename="QWozdstSf9.pdf"]</code></li><li><code>a[filename="9yMgOoAS3h.pdf"]</code></li>
+      </ul>
+    </div>
+  
+    <div class="violation">
+      <h2>region</h2>
+      <p><span class="impact">Impact:</span> moderate</p>
+      <p>Ensure all page content is contained by landmarks</p>
+      <p><a href="https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI" target="_blank">More info</a></p>
+      <h3>Affected Nodes:</h3>
+      <ul>
+        <li><code>.content-pad-10 > .container-fluid</code></li><li><code>.alert-container</code></li><li><code>.row:nth-child(2) > .col-md-3</code></li><li><code>.row:nth-child(2) > .col-md-8</code></li><li><code>.row:nth-child(3) > .col-md-3</code></li><li><code>#password</code></li><li><code>a[href$="memberinterface"]</code></li><li><code>#forgerPass</code></li><li><code>.pad-left-0.col-md-3 > .shadow.content-pad-0.col-md-12 > .container-fluid</code></li><li><code>.bck-content.col-md-12 > .content-ul > li:nth-child(1)</code></li><li><code>.bck-content.col-md-12 > .content-ul > li:nth-child(2)</code></li><li><code>.bck-content.col-md-12 > .content-ul > li:nth-child(3)</code></li><li><code>li:nth-child(4)</code></li><li><code>li:nth-child(5)</code></li><li><code>li:nth-child(6)</code></li><li><code>.row:nth-child(7)</code></li>
+      </ul>
+    </div>
+  
+    </body>
+  </html>

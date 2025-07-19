@@ -1,0 +1,1138 @@
+{
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#098585",
+                "bgColor": "#d4cfcf",
+                "contrastRatio": 2.89,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"top-bar sticky-top\" style=\"padding-right: 17px; margin-right: -17px;\">",
+                  "target": [
+                    ".top-bar"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.89 (foreground color: #098585, background color: #d4cfcf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/memberinterface/no-auth/uanservice/screenredirect?_HDIV_STATE_=8-0-5E8EAE66A7DDC89DAC5B93C341166C15\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Screen Reader Access</a>",
+          "target": [
+            ".hstack > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.89 (foreground color: #098585, background color: #d4cfcf, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#c1622d",
+                "bgColor": "#fefeff",
+                "contrastRatio": 4.12,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<nav id=\"navBar\" class=\"navbar navbar-default position-fixed\" role=\"navigation\" style=\"top:25px;z-index: 1030;\">",
+                  "target": [
+                    "#navBar"
+                  ]
+                },
+                {
+                  "html": "<div class=\"navbar navbar-expand-sm bg-light navbar-static-top \" role=\"navigation\" style=\"min-height:40px;padding-top:55px;background:#F5F5F5;z-index: -1;border-bottom: 1px solid #d2d3d4;\">\n</div>",
+                  "target": [
+                    ".navbar-expand-sm"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.12 (foreground color: #c1622d, background color: #fefeff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span style=\"font-size:20px;color:#C1622D;\">  MEMBER e-SEWA</span>",
+          "target": [
+            ".col-md-8.d-sm-block.d-none > span:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.12 (foreground color: #c1622d, background color: #fefeff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#ff0000",
+                "contrastRatio": 3.99,
+                "fontSize": "9.4pt (12.6px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"badge blink\" id=\"linkForPensionOnHigherWages\">NEW</span>",
+                  "target": [
+                    "#linkForPensionOnHigherWages"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 9.4pt (12.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"badge blink\" id=\"linkForPensionOnHigherWages\">NEW</span>",
+          "target": [
+            "#linkForPensionOnHigherWages"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 9.4pt (12.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d6efd",
+                "bgColor": "#f8f8f8",
+                "contrastRatio": 4.23,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"col-md-12 bck-content\" style=\"min-height:262px\">",
+                  "target": [
+                    ".shadow.content-pad-0.col-md-12 > .bck-content.col-md-12"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"\">Track Application Status for Pension on Higher Wages</span>",
+          "target": [
+            "#pohw > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d6efd",
+                "bgColor": "#f8f8f8",
+                "contrastRatio": 4.23,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"col-md-12 bck-content\" style=\"min-height:262px\">",
+                  "target": [
+                    ".shadow.content-pad-0.col-md-12 > .bck-content.col-md-12"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/memberinterface/no-auth/uanActivation/activationForm?_HDIV_STATE_=8-13-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"uanActivation\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Activate UAN </a>",
+          "target": [
+            "#uanActivation"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d6efd",
+                "bgColor": "#f8f8f8",
+                "contrastRatio": 4.23,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"col-md-12 bck-content\" style=\"min-height:262px\">",
+                  "target": [
+                    ".shadow.content-pad-0.col-md-12 > .bck-content.col-md-12"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/memberinterface/no-auth/uanservice/home?_HDIV_STATE_=8-12-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"kyu\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Know your UAN</a>",
+          "target": [
+            "#kyu"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d6efd",
+                "bgColor": "#f8f8f8",
+                "contrastRatio": 4.23,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"col-md-12 bck-content\" style=\"min-height:262px\">",
+                  "target": [
+                    ".shadow.content-pad-0.col-md-12 > .bck-content.col-md-12"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#\" id=\"citizenRegistrationDisable\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Direct UAN Allotment by Employees</a>",
+          "target": [
+            "#citizenRegistrationDisable"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d6efd",
+                "bgColor": "#f8f8f8",
+                "contrastRatio": 4.23,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"col-md-12 bck-content\" style=\"min-height:262px\">",
+                  "target": [
+                    ".shadow.content-pad-0.col-md-12 > .bck-content.col-md-12"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/memberinterface/no-auth/nomineeAppForm/viewNomineeAppForm?_HDIV_STATE_=8-15-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"nomineeAppForm\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Death claim filing by beneficiary </a>",
+          "target": [
+            "#nomineeAppForm"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d6efd",
+                "bgColor": "#f8f8f8",
+                "contrastRatio": 4.23,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"col-md-12 bck-content\" style=\"min-height:262px\">",
+                  "target": [
+                    ".shadow.content-pad-0.col-md-12 > .bck-content.col-md-12"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/memberinterface/no-auth/existingmember/home?_HDIV_STATE_=8-14-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"directUanAllot\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> UAN Allotment for Existing PF </a>",
+          "target": [
+            "#directUanAllot"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #0d6efd, background color: #f8f8f8, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b9595",
+                "contrastRatio": 3.59,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"row\" style=\"background:#2B9595;padding:3px;margin-right: 5px; padding-bottom: 0px; \">",
+                  "target": [
+                    "#footer > .row"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #2b9595, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/memberinterface/member/profile/contactuswithoutmenu?_HDIV_STATE_=8-16-5E8EAE66A7DDC89DAC5B93C341166C15\" style=\"color:#FFF;\"><i class=\"fa fa-phone\"></i> Contact Us</a>",
+          "target": [
+            ".list-inline-item:nth-child(1) > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #2b9595, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b9595",
+                "contrastRatio": 3.59,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"row\" style=\"background:#2B9595;padding:3px;margin-right: 5px; padding-bottom: 0px; \">",
+                  "target": [
+                    "#footer > .row"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #2b9595, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/memberinterface/member/profile/frequentlyAskedQuestionWithoutMenu?_HDIV_STATE_=8-17-5E8EAE66A7DDC89DAC5B93C341166C15\" style=\"color:#FFF;\"><i class=\"fa fa-question\"></i> FAQs</a>",
+          "target": [
+            ".list-inline-item:nth-child(2) > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #2b9595, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT"
+      ],
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "help": "Images must have alternative text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element does not have an alt attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<img style=\"padding-top:5px !important\" class=\"header-logo\" id=\"header-icon-img\" src=\"data:image/png;base64,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\">",
+          "target": [
+            ".col-sm-2 > img"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ]
+    },
+    {
+      "id": "landmark-unique",
+      "impact": "moderate",
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure landmarks are unique",
+      "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "landmark-is-unique",
+              "data": {
+                "role": "navigation",
+                "accessibleText": null
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"navbar navbar-expand-sm bg-light navbar-static-top \" role=\"navigation\" style=\"min-height:40px;padding-top:55px;background:#F5F5F5;z-index: -1;border-bottom: 1px solid #d2d3d4;\">\n</div>",
+                  "target": [
+                    ".navbar-expand-sm"
+                  ]
+                }
+              ],
+              "impact": "moderate",
+              "message": "The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<nav id=\"navBar\" class=\"navbar navbar-default position-fixed\" role=\"navigation\" style=\"top:25px;z-index: 1030;\">",
+          "target": [
+            "#navBar"
+          ],
+          "failureSummary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+        }
+      ]
+    },
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensure links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"file-link\" href=\"/memberinterface/no-auth/memberalerts/uploads?filepath=purZbMpBSH.pdf&amp;_HDIV_STATE_=8-1-5E8EAE66A7DDC89DAC5B93C341166C15\" target=\"_blank\" filename=\"purZbMpBSH.pdf\"><i class=\"fa fa-file-pdf-o\" style=\"color : red; font-size: large;\"></i></a>",
+          "target": [
+            "a[filename=\"purZbMpBSH.pdf\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"file-link\" href=\"/memberinterface/no-auth/memberalerts/uploads?filepath=OqSNkwQiBb.pdf&amp;_HDIV_STATE_=8-2-5E8EAE66A7DDC89DAC5B93C341166C15\" target=\"_blank\" filename=\"OqSNkwQiBb.pdf\"><i class=\"fa fa-file-pdf-o\" style=\"color : red; font-size: large;\"></i></a>",
+          "target": [
+            "a[filename=\"OqSNkwQiBb.pdf\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"file-link\" href=\"/memberinterface/no-auth/memberalerts/uploads?filepath=fGQDJ1pjvH.pdf&amp;_HDIV_STATE_=8-3-5E8EAE66A7DDC89DAC5B93C341166C15\" target=\"_blank\" filename=\"fGQDJ1pjvH.pdf\"><i class=\"fa fa-file-pdf-o\" style=\"color : red; font-size: large;\"></i></a>",
+          "target": [
+            "a[filename=\"fGQDJ1pjvH.pdf\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"file-link\" href=\"/memberinterface/no-auth/memberalerts/uploads?filepath=QWozdstSf9.pdf&amp;_HDIV_STATE_=8-4-5E8EAE66A7DDC89DAC5B93C341166C15\" target=\"_blank\" filename=\"QWozdstSf9.pdf\"><i class=\"fa fa-file-pdf-o\" style=\"color : red; font-size: large;\"></i></a>",
+          "target": [
+            "a[filename=\"QWozdstSf9.pdf\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"file-link\" href=\"/memberinterface/no-auth/memberalerts/uploads?filepath=9yMgOoAS3h.pdf&amp;_HDIV_STATE_=8-5-5E8EAE66A7DDC89DAC5B93C341166C15\" target=\"_blank\" filename=\"9yMgOoAS3h.pdf\"><i class=\"fa fa-file-pdf-o\" style=\"color : red; font-size: large;\"></i></a>",
+          "target": [
+            "a[filename=\"9yMgOoAS3h.pdf\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ]
+    },
+    {
+      "id": "region",
+      "impact": "moderate",
+      "tags": [
+        "cat.keyboard",
+        "best-practice"
+      ],
+      "description": "Ensure all page content is contained by landmarks",
+      "help": "All page content should be contained by landmarks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"container-fluid\">",
+          "target": [
+            ".content-pad-10 > .container-fluid"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"alert-container\">",
+          "target": [
+            ".alert-container"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"col-md-3\">\n                        <label>UAN</label>\n                    </div>",
+          "target": [
+            ".row:nth-child(2) > .col-md-3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"col-md-8\">\n                        \n                        <input id=\"userName\" name=\"userName\" placeholder=\"Enter UAN\" type=\"text\" class=\"form-control\" value=\"\" maxlength=\"12\" autocomplete=\"off\">\n                    </div>",
+          "target": [
+            ".row:nth-child(2) > .col-md-8"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"col-md-3\">\n                        <label> Password </label>\n                    </div>",
+          "target": [
+            ".row:nth-child(3) > .col-md-3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<input id=\"password\" name=\"password\" placeholder=\"Enter Password\" class=\"form-control\" type=\"password\" value=\"\" autocomplete=\"off\">",
+          "target": [
+            "#password"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<a href=\"/memberinterface\" class=\"btn btn-success \" title=\"Click to Reset page.\">Reset</a>",
+          "target": [
+            "a[href$=\"memberinterface\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<a href=\"/memberinterface/no-auth/forgotPasswordNew/home?_HDIV_STATE_=8-9-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"forgerPass\" title=\"Forgot Password\" style=\"color:#05386b; float:left;\"><strong>Forgot Password ?</strong></a>",
+          "target": [
+            "#forgerPass"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"container-fluid\" style=\"padding: 0px\">",
+          "target": [
+            ".pad-left-0.col-md-3 > .shadow.content-pad-0.col-md-12 > .container-fluid"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<li>\n                            <a href=\"https://unifiedportal-mem.epfindia.gov.in/memberInterfacePohw/\" id=\"pohw\"> <i class=\"fa fa-hand-o-right icon-orange\"></i>  <span class=\"\">Track Application Status for Pension on Higher Wages</span></a>\n                        </li>",
+          "target": [
+            ".bck-content.col-md-12 > .content-ul > li:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<li>\n                        <a href=\"/memberinterface/no-auth/uanActivation/activationForm?_HDIV_STATE_=8-13-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"uanActivation\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Activate UAN </a>\n                    </li>",
+          "target": [
+            ".bck-content.col-md-12 > .content-ul > li:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<li>\n                        <a href=\"/memberinterface/no-auth/uanservice/home?_HDIV_STATE_=8-12-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"kyu\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Know your UAN</a>\n                    </li>",
+          "target": [
+            ".bck-content.col-md-12 > .content-ul > li:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<li>\n                        <a href=\"#\" id=\"citizenRegistrationDisable\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Direct UAN Allotment by Employees</a>\n                    </li>",
+          "target": [
+            "li:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<li>\n                        <a href=\"/memberinterface/no-auth/nomineeAppForm/viewNomineeAppForm?_HDIV_STATE_=8-15-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"nomineeAppForm\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> Death claim filing by beneficiary </a>\n                    </li>",
+          "target": [
+            "li:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<li>\n                        <a href=\"/memberinterface/no-auth/existingmember/home?_HDIV_STATE_=8-14-5E8EAE66A7DDC89DAC5B93C341166C15\" id=\"directUanAllot\"> <i class=\"fa fa-hand-o-right icon-orange\"></i> UAN Allotment for Existing PF </a>\n                    </li>",
+          "target": [
+            "li:nth-child(6)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Some page content is not contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<div class=\"row\">",
+          "target": [
+            ".row:nth-child(7)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+        }
+      ]
+    }
+  ]
+}
